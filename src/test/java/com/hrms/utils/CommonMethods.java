@@ -240,6 +240,21 @@ public class CommonMethods extends BaseClass {
 	    public static void waitForInvisibility(WebElement element) {
 	        getWaitObject().until(ExpectedConditions.invisibilityOf(element));
 	    }
+	    
+	    
+	    /**
+	     * This method will click on the element
+	     * @param element
+	     */
+	    public static void click(WebElement element) {
+	        waitForClickability(element);
+	        element.click();
+	    }
+
+
+
+
+
 		
 		
 		
