@@ -5,7 +5,7 @@
     <classes>
       <class name="com.testcases.LoignPageTest">
         <methods>
-          <include name="negativeLogin"/>
+          <include name="logo"/>
           <include name="tearDown"/>
           <include name="login"/>
           <include name="setUp"/>
