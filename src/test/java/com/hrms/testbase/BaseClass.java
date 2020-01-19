@@ -40,15 +40,12 @@ public class BaseClass {
     }
     
     
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         if (driver != null) {
             driver.quit();
         }
-        
-        
-        
-        
+    	
     }
 }
 

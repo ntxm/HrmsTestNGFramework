@@ -1,7 +1,7 @@
-package com.testcases;
+package com.hrms.testcases;
 
+import org.testng.annotations.Test;
 import org.testng.Assert;
-import org.testng.annotations.*;
 
 import com.hrms.pages.LoginPage;
 import com.hrms.pages.LoginPageElements;
@@ -9,7 +9,7 @@ import com.hrms.utils.CommonMethods;
 
 public class LoginPageTest extends CommonMethods {
 	
-	@Test
+	@Test(groups="smoke")
 	public void login() {
 		
 		LoginPage login = new LoginPage();
@@ -19,7 +19,7 @@ public class LoginPageTest extends CommonMethods {
 		
 	}
 	
-	@Test 
+	@Test (groups="regression")
 	public void negativeLogin() throws InterruptedException {
 		LoginPageElements login = new LoginPageElements();
 		sendText(login.username, "Admin");
@@ -29,7 +29,7 @@ public class LoginPageTest extends CommonMethods {
 		Thread.sleep(3000);
 	}
 	
-	@Test
+	@Test(groups="smoke")
 	public void logo() {
 		LoginPage login = new LoginPage();
 		boolean isDisplayed = login.logo.isDisplayed();
