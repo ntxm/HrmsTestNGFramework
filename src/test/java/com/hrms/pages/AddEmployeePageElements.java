@@ -8,11 +8,6 @@ import com.hrms.testbase.BaseClass;
 
 public class AddEmployeePageElements {
 	
-	@FindBy(linkText = "PIM")
-	public WebElement PIMLink;
-	
-	@FindBy(linkText="Add Employee")
-	public WebElement AddEmpLink;
 	
 	@FindBy(id="personal_txtEmployeeId")
 	public WebElement personalEmpID;

@@ -5,8 +5,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.hrms.testbase.BaseClass;
+import com.hrms.utils.CommonMethods;
 
-public class LoginPageElements {
+public class LoginPageElements extends CommonMethods {
 	
 	@FindBy(xpath="//div[@id='divLogo']")
 	public WebElement logo;
@@ -29,6 +30,15 @@ public class LoginPageElements {
 	
 	public LoginPageElements() {
 		PageFactory.initElements(BaseClass.driver, this);
+	}
+	
+	//login method
+	public void login(String uid, String pwd) {
+		
+		sendText(username, uid);
+		sendText(password, pwd);
+		click(loginBtn);
+		
 	}
 	
 

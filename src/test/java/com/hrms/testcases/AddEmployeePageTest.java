@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.hrms.pages.AddEmployeePageElements;
+import com.hrms.pages.DashboardPageElements;
 import com.hrms.pages.LoginPageElements;
 import com.hrms.pages.ViewEmployeePageElements;
 import com.hrms.utils.CommonMethods;
@@ -14,6 +15,7 @@ public class AddEmployeePageTest extends CommonMethods {
 	public void AddNewEmployee() throws InterruptedException {
 	//create LoginPageElements, AddEmployeePageElements and ViewEmployeePageElements Objects
 	LoginPageElements login = new LoginPageElements();
+	DashboardPageElements dashboard = new DashboardPageElements();
 	AddEmployeePageElements addEmployee = new AddEmployeePageElements();
 	ViewEmployeePageElements viewEmployee = new ViewEmployeePageElements();
 	
@@ -21,10 +23,10 @@ public class AddEmployeePageTest extends CommonMethods {
 	sendText(login.password,"Hum@nhrm123");
 	click(login.loginBtn);
 	
-	waitForClickability(addEmployee.PIMLink);
-	click(addEmployee.PIMLink);
-	waitForClickability(addEmployee.AddEmpLink);
-	click(addEmployee.AddEmpLink);
+	waitForClickability(dashboard.PIMLink);
+	click(dashboard.PIMLink);
+	waitForClickability(dashboard.AddEmpLink);
+	click(dashboard.AddEmpLink);
 	
 	waitForClickability(addEmployee.firstName);
 	sendText(addEmployee.firstName, "Ann");
