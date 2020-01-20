@@ -34,7 +34,9 @@ public class LoginPropertiesFileTest extends CommonMethods {
 		sendText(login.password, property.getProperty("password"));
 		jsClick(login.loginBtn);
 		
-		Thread.sleep(3000);
+		Thread.sleep(2000);
+		
+		
 		
 		
 	}
