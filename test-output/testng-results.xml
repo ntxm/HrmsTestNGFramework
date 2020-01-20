@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17333" started-at="2020-01-19T14:15:01 EST" finished-at="2020-01-19T14:15:19 EST">
+  <suite name="Default suite" duration-ms="38" started-at="2020-01-19T14:56:16 EST" finished-at="2020-01-19T14:56:16 EST">
     <groups>
-      <group name="regression">
-        <method signature="LeaveListPageTest.leaveLabelValidation()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@6e6c3152]" name="leaveLabelValidation" class="com.hrms.testcases.LeaveListPageTest"/>
-        <method signature="LeaveListPageTest.leaveLabelValidation1()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@6e6c3152]" name="leaveLabelValidation1" class="com.hrms.testcases.LeaveListPageTest"/>
-      </group> <!-- regression -->
     </groups>
-    <test name="Default test" duration-ms="17333" started-at="2020-01-19T14:15:01 EST" finished-at="2020-01-19T14:15:19 EST">
-      <class name="com.hrms.testcases.LeaveListPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2932" started-at="2020-01-19T14:15:01 EST" finished-at="2020-01-19T14:15:04 EST">
+    <test name="Default test" duration-ms="38" started-at="2020-01-19T14:56:16 EST" finished-at="2020-01-19T14:56:16 EST">
+      <class name="com.practice.PropertyFileReading">
+        <test-method status="PASS" signature="read()[pri:0, instance:com.practice.PropertyFileReading@2b2948e2]" name="read" duration-ms="9" started-at="2020-01-19T14:56:16 EST" finished-at="2020-01-19T14:56:16 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="leaveLabelValidation()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@6e6c3152]" name="leaveLabelValidation" duration-ms="6085" started-at="2020-01-19T14:15:04 EST" finished-at="2020-01-19T14:15:10 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- leaveLabelValidation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-01-19T14:15:10 EST" finished-at="2020-01-19T14:15:10 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2455" started-at="2020-01-19T14:15:10 EST" finished-at="2020-01-19T14:15:13 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="leaveLabelValidation1()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@6e6c3152]" name="leaveLabelValidation1" duration-ms="5651" started-at="2020-01-19T14:15:13 EST" finished-at="2020-01-19T14:15:18 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- leaveLabelValidation1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="91" started-at="2020-01-19T14:15:18 EST" finished-at="2020-01-19T14:15:19 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.hrms.testcases.LeaveListPageTest -->
+        </test-method> <!-- read -->
+      </class> <!-- com.practice.PropertyFileReading -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
