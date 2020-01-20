@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38" started-at="2020-01-19T14:56:16 EST" finished-at="2020-01-19T14:56:16 EST">
+  <suite name="Default suite" duration-ms="8958" started-at="2020-01-20T00:54:08 EST" finished-at="2020-01-20T00:54:17 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38" started-at="2020-01-19T14:56:16 EST" finished-at="2020-01-19T14:56:16 EST">
-      <class name="com.practice.PropertyFileReading">
-        <test-method status="PASS" signature="read()[pri:0, instance:com.practice.PropertyFileReading@2b2948e2]" name="read" duration-ms="9" started-at="2020-01-19T14:56:16 EST" finished-at="2020-01-19T14:56:16 EST">
+    <test name="Default test" duration-ms="8958" started-at="2020-01-20T00:54:08 EST" finished-at="2020-01-20T00:54:17 EST">
+      <class name="com.practice.LoginPropertiesFileTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.practice.LoginPropertiesFileTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2927" started-at="2020-01-20T00:54:09 EST" finished-at="2020-01-20T00:54:11 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- read -->
-      </class> <!-- com.practice.PropertyFileReading -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.practice.LoginPropertiesFileTest@6e6c3152]" name="login" duration-ms="5909" started-at="2020-01-20T00:54:11 EST" finished-at="2020-01-20T00:54:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practice.LoginPropertiesFileTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="89" started-at="2020-01-20T00:54:17 EST" finished-at="2020-01-20T00:54:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.practice.LoginPropertiesFileTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
