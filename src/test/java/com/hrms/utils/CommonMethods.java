@@ -1,7 +1,10 @@
 package com.hrms.utils;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
@@ -245,6 +248,28 @@ public class CommonMethods extends BaseClass {
 	    public static void click(WebElement element) {
 	        waitForClickability(element);
 	        element.click();
+	    }
+	    
+	    
+	    
+	    // Properties property;
+	    public static String usePropertiesFile(String propertyKey) {
+	    	String filePath = System.getProperty("user.dir") + "/src/test/java/com/practice/settings.properties";
+	    	Properties property = null;
+	    	try {
+				FileInputStream fis = new FileInputStream(filePath);
+				property = new Properties();
+				property.load(fis);
+			} catch (FileNotFoundException e) {
+				
+				e.printStackTrace();
+			} catch (IOException e) {
+				
+				e.printStackTrace();
+			}
+	    	String value = property.getProperty(propertyKey);
+	    	
+	    	return value;
 	    }
 
 

@@ -20,7 +20,7 @@ public class LeaveListPageTest extends CommonMethods {
 		LeaveListPageElements leaveList = new LeaveListPageElements();
 		
 		sendText(login.username, "Admin");
-		sendText(login.password, "Hum@nhrm123");
+		sendText(login.password, "Syntax@123");
 		click(login.loginBtn);
 		click(dashboard.leaveLink);
 		click(dashboard.leaveList);
@@ -34,7 +34,7 @@ public class LeaveListPageTest extends CommonMethods {
 		DashboardPageElements dashboard = new DashboardPageElements();
 		LeaveListPageElements leaveList = new LeaveListPageElements();
 		
-		login.login("Admin", "Hum@nhrm123");
+		login.login("Admin", "Syntax@123");
 		dashboard.navigateToLeaveList();
 		Assert.assertTrue(leaveList.leaveListLbl.isDisplayed(), "Label is NOT displayed");
 	}

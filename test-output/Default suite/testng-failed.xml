@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hrms.testcases.AddEmployeePageTest">
+      <class name="com.hrms.testcases.LeaveListPageTest">
         <methods>
-          <include name="AddNewEmployee"/>
+          <include name="leaveLabelValidation"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.hrms.testcases.AddEmployeePageTest -->
+      </class> <!-- com.hrms.testcases.LeaveListPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

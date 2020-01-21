@@ -20,12 +20,12 @@ public class AddEmployeePageTest extends CommonMethods {
 	ViewEmployeePageElements viewEmployee = new ViewEmployeePageElements();
 	
 	sendText(login.username, "Admin");
-	sendText(login.password,"Hum@nhrm123");
+	sendText(login.password,"Syntax@123");
 	click(login.loginBtn);
 	
 	waitForClickability(dashboard.PIMLink);
-	click(dashboard.PIMLink);
-	waitForClickability(dashboard.AddEmpLink);
+	jsClick(dashboard.PIMLink);
+	jsClick(dashboard.AddEmpLink);
 	click(dashboard.AddEmpLink);
 	
 	waitForClickability(addEmployee.firstName);

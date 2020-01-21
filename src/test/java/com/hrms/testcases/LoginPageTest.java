@@ -14,7 +14,7 @@ public class LoginPageTest extends CommonMethods {
 		
 		LoginPage login = new LoginPage();
 		sendText(login.username, "Admin");
-		sendText(login.password, "Hum@nhrm123");
+		sendText(login.password, "Syntax@123");
 		click(login.loginBtn);
 		
 	}
@@ -34,6 +34,15 @@ public class LoginPageTest extends CommonMethods {
 		LoginPage login = new LoginPage();
 		boolean isDisplayed = login.logo.isDisplayed();
 		Assert.assertTrue(isDisplayed, "Logo is not displayed");
+	}
+	
+	@Test(groups="regression")
+	public void loginWithProperties() {
+		LoginPage login = new LoginPage();
+		sendText(login.username, usePropertiesFile("username"));
+		sendText(login.password, usePropertiesFile("password"));
+		jsClick(login.loginBtn);
+		System.out.println("Properties works");
 	}
 
 }
