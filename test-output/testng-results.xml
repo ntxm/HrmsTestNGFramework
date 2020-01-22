@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="445" started-at="2020-01-22T02:09:42 EST" finished-at="2020-01-22T02:09:42 EST">
+  <suite name="Default suite" duration-ms="445" started-at="2020-01-22T02:58:45 EST" finished-at="2020-01-22T02:58:45 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="445" started-at="2020-01-22T02:09:42 EST" finished-at="2020-01-22T02:09:42 EST">
-      <class name="com.practice.XLReader">
-        <test-method status="PASS" signature="read()[pri:0, instance:com.practice.XLReader@6e0e048a]" name="read" duration-ms="414" started-at="2020-01-22T02:09:42 EST" finished-at="2020-01-22T02:09:42 EST">
+    <test name="Default test" duration-ms="445" started-at="2020-01-22T02:58:45 EST" finished-at="2020-01-22T02:58:45 EST">
+      <class name="com.practice.XLReadAndWriteTo2DArray">
+        <test-method status="PASS" signature="read()[pri:0, instance:com.practice.XLReadAndWriteTo2DArray@6e0e048a]" name="read" duration-ms="413" started-at="2020-01-22T02:58:45 EST" finished-at="2020-01-22T02:58:45 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- read -->
-      </class> <!-- com.practice.XLReader -->
+      </class> <!-- com.practice.XLReadAndWriteTo2DArray -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
