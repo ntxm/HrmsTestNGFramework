@@ -6,6 +6,8 @@ import org.testng.Assert;
 import com.hrms.pages.LoginPage;
 import com.hrms.pages.LoginPageElements;
 import com.hrms.utils.CommonMethods;
+import com.hrms.utils.ConfigsReader;
+import com.hrms.utils.Constants;
 
 public class LoginPageTest extends CommonMethods {
 	

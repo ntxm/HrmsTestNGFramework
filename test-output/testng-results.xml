@@ -1,69 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="1" ignored="2" total="7" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20386" started-at="2020-01-21T20:25:51 EST" finished-at="2020-01-21T20:26:12 EST">
+  <suite name="Regression Suite" duration-ms="108908" started-at="2020-01-21T21:18:03 EST" finished-at="2020-01-21T21:19:52 EST">
     <groups>
       <group name="regression">
-        <method signature="LoginPageTest.loginWithProperties()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="loginWithProperties" class="com.hrms.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.negativeLogin()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="negativeLogin" class="com.hrms.testcases.LoginPageTest"/>
+        <method signature="AddEmployeePageTest.AddNewEmployee()[pri:0, instance:com.hrms.testcases.AddEmployeePageTest@7c29daf3]" name="AddNewEmployee" class="com.hrms.testcases.AddEmployeePageTest"/>
+        <method signature="LeaveListPageTest.leaveLabelValidation()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4bbfb90a]" name="leaveLabelValidation" class="com.hrms.testcases.LeaveListPageTest"/>
+        <method signature="LeaveListPageTest.leaveLabelValidation1()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4bbfb90a]" name="leaveLabelValidation1" class="com.hrms.testcases.LeaveListPageTest"/>
+        <method signature="LoginPageTest.loginWithProperties()[pri:0, instance:com.hrms.testcases.LoginPageTest@9660f4e]" name="loginWithProperties" class="com.hrms.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.negativeLogin()[pri:0, instance:com.hrms.testcases.LoginPageTest@9660f4e]" name="negativeLogin" class="com.hrms.testcases.LoginPageTest"/>
       </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="LoginPageTest.login()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="login" class="com.hrms.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.logo()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="logo" class="com.hrms.testcases.LoginPageTest"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="20386" started-at="2020-01-21T20:25:51 EST" finished-at="2020-01-21T20:26:12 EST">
-      <class name="com.hrms.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="3444" started-at="2020-01-21T20:25:52 EST" finished-at="2020-01-21T20:25:55 EST">
+    <test name="Regression Test" duration-ms="108908" started-at="2020-01-21T21:18:03 EST" finished-at="2020-01-21T21:19:52 EST">
+      <class name="com.hrms.testcases.AddEmployeePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.AddEmployeePageTest@7c29daf3]" name="setUp" is-config="true" duration-ms="10987" started-at="2020-01-21T21:18:43 EST" finished-at="2020-01-21T21:18:54 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="login" duration-ms="2222" started-at="2020-01-21T20:25:55 EST" finished-at="2020-01-21T20:25:57 EST">
+        <test-method status="PASS" signature="AddNewEmployee()[pri:0, instance:com.hrms.testcases.AddEmployeePageTest@7c29daf3]" name="AddNewEmployee" duration-ms="40910" started-at="2020-01-21T21:18:54 EST" finished-at="2020-01-21T21:19:35 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-01-21T20:25:57 EST" finished-at="2020-01-21T20:25:57 EST">
+        </test-method> <!-- AddNewEmployee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddEmployeePageTest@7c29daf3]" name="tearDown" is-config="true" duration-ms="87" started-at="2020-01-21T21:19:36 EST" finished-at="2020-01-21T21:19:36 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2491" started-at="2020-01-21T20:25:57 EST" finished-at="2020-01-21T20:26:00 EST">
+      </class> <!-- com.hrms.testcases.AddEmployeePageTest -->
+      <class name="com.hrms.testcases.LeaveListPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4bbfb90a]" name="setUp" is-config="true" duration-ms="8064" started-at="2020-01-21T21:18:03 EST" finished-at="2020-01-21T21:18:11 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginWithProperties()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="loginWithProperties" duration-ms="2945" started-at="2020-01-21T20:26:00 EST" finished-at="2020-01-21T20:26:03 EST">
+        <test-method status="PASS" signature="leaveLabelValidation()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4bbfb90a]" name="leaveLabelValidation" duration-ms="12013" started-at="2020-01-21T21:18:11 EST" finished-at="2020-01-21T21:18:23 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveLabelValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4bbfb90a]" name="tearDown" is-config="true" duration-ms="89" started-at="2020-01-21T21:18:24 EST" finished-at="2020-01-21T21:18:24 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4bbfb90a]" name="setUp" is-config="true" duration-ms="3750" started-at="2020-01-21T21:18:24 EST" finished-at="2020-01-21T21:18:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="leaveLabelValidation1()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4bbfb90a]" name="leaveLabelValidation1" duration-ms="14966" started-at="2020-01-21T21:18:28 EST" finished-at="2020-01-21T21:18:43 EST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"a.toggle.tiptip"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Natalias-MBP.home', ip: 'fe80:0:0:0:488:d20e:8255:4d8c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/mw/2ygtkhyx12z...}, goog:chromeOptions: {debuggerAddress: localhost:53611}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0df63b564dd7fadfa7dd05ab3e9d38f3
+*** Element info: {Using=css selector, value=a.toggle.tiptip}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a.toggle.tiptip"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Natalias-MBP.home', ip: 'fe80:0:0:0:488:d20e:8255:4d8c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/mw/2ygtkhyx12z...}, goog:chromeOptions: {debuggerAddress: localhost:53611}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0df63b564dd7fadfa7dd05ab3e9d38f3
+*** Element info: {Using=css selector, value=a.toggle.tiptip}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+at com.hrms.testcases.LeaveListPageTest.leaveLabelValidation1(LeaveListPageTest.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveLabelValidation1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4bbfb90a]" name="tearDown" is-config="true" duration-ms="87" started-at="2020-01-21T21:18:43 EST" finished-at="2020-01-21T21:18:43 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrms.testcases.LeaveListPageTest -->
+      <class name="com.hrms.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@9660f4e]" name="setUp" is-config="true" duration-ms="3599" started-at="2020-01-21T21:19:36 EST" finished-at="2020-01-21T21:19:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithProperties()[pri:0, instance:com.hrms.testcases.LoginPageTest@9660f4e]" name="loginWithProperties" duration-ms="4519" started-at="2020-01-21T21:19:39 EST" finished-at="2020-01-21T21:19:44 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithProperties -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="81" started-at="2020-01-21T20:26:03 EST" finished-at="2020-01-21T20:26:03 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@9660f4e]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-01-21T21:19:45 EST" finished-at="2020-01-21T21:19:45 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2708" started-at="2020-01-21T20:26:03 EST" finished-at="2020-01-21T20:26:06 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@9660f4e]" name="setUp" is-config="true" duration-ms="2484" started-at="2020-01-21T21:19:45 EST" finished-at="2020-01-21T21:19:48 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logo()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="logo" duration-ms="70" started-at="2020-01-21T20:26:06 EST" finished-at="2020-01-21T20:26:06 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="78" started-at="2020-01-21T20:26:06 EST" finished-at="2020-01-21T20:26:06 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2880" started-at="2020-01-21T20:26:06 EST" finished-at="2020-01-21T20:26:09 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="negativeLogin" duration-ms="3261" started-at="2020-01-21T20:26:09 EST" finished-at="2020-01-21T20:26:12 EST">
+        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:com.hrms.testcases.LoginPageTest@9660f4e]" name="negativeLogin" duration-ms="3240" started-at="2020-01-21T21:19:48 EST" finished-at="2020-01-21T21:19:51 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="79" started-at="2020-01-21T20:26:12 EST" finished-at="2020-01-21T20:26:12 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@9660f4e]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-01-21T21:19:51 EST" finished-at="2020-01-21T21:19:52 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.hrms.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
 </testng-results>

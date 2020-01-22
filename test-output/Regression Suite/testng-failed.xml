@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.hrms.testbase.Listener"/>
+  </listeners>
   <test thread-count="5" name="Regression Test(failed)">
     <groups>
       <run>
@@ -8,13 +11,13 @@
       </run>
     </groups>
     <classes>
-      <class name="com.hrms.testcases.AddEmployeePageTest">
+      <class name="com.hrms.testcases.LeaveListPageTest">
         <methods>
-          <include name="AddNewEmployee"/>
+          <include name="leaveLabelValidation1"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.hrms.testcases.AddEmployeePageTest -->
+      </class> <!-- com.hrms.testcases.LeaveListPageTest -->
     </classes>
   </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->
