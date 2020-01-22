@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19527" started-at="2020-01-21T17:09:49 EST" finished-at="2020-01-21T17:10:08 EST">
+  <suite name="Default suite" duration-ms="20386" started-at="2020-01-21T20:25:51 EST" finished-at="2020-01-21T20:26:12 EST">
     <groups>
       <group name="regression">
         <method signature="LoginPageTest.loginWithProperties()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="loginWithProperties" class="com.hrms.testcases.LoginPageTest"/>
@@ -13,53 +13,53 @@
         <method signature="LoginPageTest.logo()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="logo" class="com.hrms.testcases.LoginPageTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="19527" started-at="2020-01-21T17:09:49 EST" finished-at="2020-01-21T17:10:08 EST">
+    <test name="Default test" duration-ms="20386" started-at="2020-01-21T20:25:51 EST" finished-at="2020-01-21T20:26:12 EST">
       <class name="com.hrms.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="3401" started-at="2020-01-21T17:09:49 EST" finished-at="2020-01-21T17:09:52 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="3444" started-at="2020-01-21T20:25:52 EST" finished-at="2020-01-21T20:25:55 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="login" duration-ms="2172" started-at="2020-01-21T17:09:52 EST" finished-at="2020-01-21T17:09:54 EST">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="login" duration-ms="2222" started-at="2020-01-21T20:25:55 EST" finished-at="2020-01-21T20:25:57 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="82" started-at="2020-01-21T17:09:54 EST" finished-at="2020-01-21T17:09:54 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-01-21T20:25:57 EST" finished-at="2020-01-21T20:25:57 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2484" started-at="2020-01-21T17:09:54 EST" finished-at="2020-01-21T17:09:57 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2491" started-at="2020-01-21T20:25:57 EST" finished-at="2020-01-21T20:26:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginWithProperties()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="loginWithProperties" duration-ms="2747" started-at="2020-01-21T17:09:57 EST" finished-at="2020-01-21T17:10:00 EST">
+        <test-method status="PASS" signature="loginWithProperties()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="loginWithProperties" duration-ms="2945" started-at="2020-01-21T20:26:00 EST" finished-at="2020-01-21T20:26:03 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithProperties -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="82" started-at="2020-01-21T17:10:00 EST" finished-at="2020-01-21T17:10:00 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="81" started-at="2020-01-21T20:26:03 EST" finished-at="2020-01-21T20:26:03 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2516" started-at="2020-01-21T17:10:00 EST" finished-at="2020-01-21T17:10:02 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2708" started-at="2020-01-21T20:26:03 EST" finished-at="2020-01-21T20:26:06 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logo()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="logo" duration-ms="68" started-at="2020-01-21T17:10:02 EST" finished-at="2020-01-21T17:10:02 EST">
+        <test-method status="PASS" signature="logo()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="logo" duration-ms="70" started-at="2020-01-21T20:26:06 EST" finished-at="2020-01-21T20:26:06 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="78" started-at="2020-01-21T17:10:02 EST" finished-at="2020-01-21T17:10:02 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="78" started-at="2020-01-21T20:26:06 EST" finished-at="2020-01-21T20:26:06 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2521" started-at="2020-01-21T17:10:02 EST" finished-at="2020-01-21T17:10:05 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2880" started-at="2020-01-21T20:26:06 EST" finished-at="2020-01-21T20:26:09 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="negativeLogin" duration-ms="3253" started-at="2020-01-21T17:10:05 EST" finished-at="2020-01-21T17:10:08 EST">
+        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="negativeLogin" duration-ms="3261" started-at="2020-01-21T20:26:09 EST" finished-at="2020-01-21T20:26:12 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="80" started-at="2020-01-21T17:10:08 EST" finished-at="2020-01-21T17:10:08 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="79" started-at="2020-01-21T20:26:12 EST" finished-at="2020-01-21T20:26:12 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

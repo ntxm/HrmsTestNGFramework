@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
+import com.hrms.utils.ConfigsReader;
 import com.hrms.utils.Constants;
 
 public class BaseClass {
@@ -16,7 +17,9 @@ public class BaseClass {
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
     	
-        switch (Constants.BROWSER.toLowerCase()) {
+    	ConfigsReader.readProperties(Constants.CREDENTIAL_FILEPATH);
+    	
+        switch (ConfigsReader.getProperty("browser").toLowerCase()) {
       
         case "chrome":
             System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
@@ -36,7 +39,7 @@ public class BaseClass {
         driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_LOAD_TIME, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         
-        driver.get(Constants.HRMS_URL);
+        driver.get(ConfigsReader.getProperty("url"));
     }
     
     

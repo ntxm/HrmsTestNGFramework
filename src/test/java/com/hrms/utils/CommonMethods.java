@@ -18,7 +18,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.hrms.testbase.BaseClass;
+
 //command+o --> to see all methods within the class
+
 public class CommonMethods extends BaseClass {
 	
 	
@@ -252,9 +254,17 @@ public class CommonMethods extends BaseClass {
 	    
 	    
 	    
-	    // Properties property;
+	    /**
+	     * This method take data from settings.properties file.
+	     * Method takes propertyKey as a parameter and return value
+	     * For example: 
+	     * usePropertiesFile(login)
+	     * return: Admin
+	     * @param propertyKey
+	     * @return
+	     */
 	    public static String usePropertiesFile(String propertyKey) {
-	    	String filePath = System.getProperty("user.dir") + "/src/test/java/com/practice/settings.properties";
+	    	String filePath = System.getProperty("user.dir") + "/src/test/resources/configs/Configurations.properties";
 	    	Properties property = null;
 	    	try {
 				FileInputStream fis = new FileInputStream(filePath);

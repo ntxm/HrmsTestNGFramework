@@ -13,8 +13,8 @@ public class LoginPageTest extends CommonMethods {
 	public void login() {
 		
 		LoginPage login = new LoginPage();
-		sendText(login.username, "Admin");
-		sendText(login.password, "Syntax@123");
+		sendText(login.username, usePropertiesFile("username"));
+		sendText(login.password, usePropertiesFile("password"));
 		click(login.loginBtn);
 		
 	}
@@ -22,7 +22,7 @@ public class LoginPageTest extends CommonMethods {
 	@Test (groups="regression")
 	public void negativeLogin() throws InterruptedException {
 		LoginPageElements login = new LoginPageElements();
-		sendText(login.username, "Admin");
+		sendText(login.username, usePropertiesFile("username"));
 		click(login.loginBtn);
 		String errorExpected = "Password cannot be empty";
 		Assert.assertEquals(login.errorMsg.getText(), errorExpected, "Error message text is not displayed");
@@ -36,13 +36,14 @@ public class LoginPageTest extends CommonMethods {
 		Assert.assertTrue(isDisplayed, "Logo is not displayed");
 	}
 	
+	//Login using properties file through usePropertiesFile
 	@Test(groups="regression")
 	public void loginWithProperties() {
 		LoginPage login = new LoginPage();
 		sendText(login.username, usePropertiesFile("username"));
 		sendText(login.password, usePropertiesFile("password"));
 		jsClick(login.loginBtn);
-		System.out.println("Properties works");
+		
 	}
 
 }
