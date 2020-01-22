@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
-  <listeners>
-    <listener class-name="com.hrms.testbase.Listener"/>
-  </listeners>
-  <test thread-count="5" name="Regression Test(failed)">
-    <groups>
-      <run>
-        <include name="regression"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hrms.testcases.LeaveListPageTest">
+      <class name="com.practice.XLReader">
         <methods>
-          <include name="leaveLabelValidation1"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="read"/>
         </methods>
-      </class> <!-- com.hrms.testcases.LeaveListPageTest -->
+      </class> <!-- com.practice.XLReader -->
     </classes>
-  </test> <!-- Regression Test(failed) -->
-</suite> <!-- Failed suite [Regression Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
