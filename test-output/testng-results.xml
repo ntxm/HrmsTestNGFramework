@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="534" started-at="2020-01-23T03:02:37 EST" finished-at="2020-01-23T03:02:38 EST">
+  <suite name="Default suite" duration-ms="15685" started-at="2020-01-23T03:59:12 EST" finished-at="2020-01-23T03:59:28 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="534" started-at="2020-01-23T03:02:37 EST" finished-at="2020-01-23T03:02:38 EST">
-      <class name="com.practice.WriteToExcel">
-        <test-method status="PASS" signature="writeToExcel()[pri:0, instance:com.practice.WriteToExcel@6e0e048a]" name="writeToExcel" duration-ms="505" started-at="2020-01-23T03:02:37 EST" finished-at="2020-01-23T03:02:38 EST">
+    <test name="Default test" duration-ms="15685" started-at="2020-01-23T03:59:12 EST" finished-at="2020-01-23T03:59:28 EST">
+      <class name="com.hrms.testcases.EmployeeListToExcelPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.EmployeeListToExcelPageTest@4bbfb90a]" name="setUp" is-config="true" duration-ms="3249" started-at="2020-01-23T03:59:12 EST" finished-at="2020-01-23T03:59:15 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- writeToExcel -->
-      </class> <!-- com.practice.WriteToExcel -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="employeeListWriteToExcel()[pri:0, instance:com.hrms.testcases.EmployeeListToExcelPageTest@4bbfb90a]" name="employeeListWriteToExcel" duration-ms="12312" started-at="2020-01-23T03:59:15 EST" finished-at="2020-01-23T03:59:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeListWriteToExcel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.EmployeeListToExcelPageTest@4bbfb90a]" name="tearDown" is-config="true" duration-ms="90" started-at="2020-01-23T03:59:28 EST" finished-at="2020-01-23T03:59:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrms.testcases.EmployeeListToExcelPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
