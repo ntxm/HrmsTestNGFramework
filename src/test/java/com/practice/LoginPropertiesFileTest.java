@@ -42,34 +42,6 @@ public class LoginPropertiesFileTest extends CommonMethods {
 
 		
 	}
-	////////////////////////////////////////////
-	
-	@Test
-	public void addEmployeeExcelReader() throws IOException {
-		String filePath = Constants.EMPLOYEE_EXCEL_PATH;
-		FileInputStream fis = new FileInputStream(filePath);
-		
-		Workbook workbook = new XSSFWorkbook(fis);
-		
-		Sheet sheet = workbook.getSheet("Sheet1");
-		
-		int rows = sheet.getPhysicalNumberOfRows();
-		
-		int cols = sheet.getRow(0).getPhysicalNumberOfCells();
-		
-		Object[][] array = new Object[rows][cols];
-		
-		for(int i = 0; i < rows; i++) {
-			for(int y = 0; y < cols; y++) {
-				String valueOfCell = sheet.getRow(i).getCell(y).toString();
-				array[i][y] = valueOfCell;
-				System.out.println(array[i][y]);
-			}
-			System.out.println("");
-		}
-		//return array;
-		
-	}
 	
 
 }

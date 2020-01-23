@@ -1,13 +1,11 @@
 package com.hrms.testcases;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.interactions.SendKeysAction;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -39,14 +37,14 @@ public class AddEmployeeFromExcelPageTest extends CommonMethods {
 		jsClick(dashboard.PIMLink);
 		jsClick(dashboard.AddEmpLink);
 		
-		String empIDExpected = emp.personalEmpID.getText();
+		
 		sendText(emp.firstName, fName);
 		sendText(emp.middleName, mName);
 		sendText(emp.lastName, lName);
 		jsClick(emp.saveBtn);
-	
-		Assert.assertEquals(viewEmp.ActualEmployeeID, empIDExpected, "ID is NOT matched");
-		
+			
+		Assert.assertEquals(viewEmp.ActualEmployeeID.getText(), emp.personalEmpID.getText(), "ID is NOT matched");
+		Thread.sleep(2000);
 		
 	}
 	
@@ -69,9 +67,9 @@ public class AddEmployeeFromExcelPageTest extends CommonMethods {
 			for(int y = 0; y < cols; y++) {
 				String valueOfCell = sheet.getRow(i).getCell(y).toString();
 				array[i][y] = valueOfCell;
-				//System.out.println(array[i][y]);
+				System.out.println(array[i][y]);
 			}
-			//System.out.println("");
+			System.out.println("");
 		}
 		return array;
 		
