@@ -5,14 +5,10 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.Test;
 
 import com.hrms.pages.LoginPageElements;
 import com.hrms.utils.CommonMethods;
-import com.hrms.utils.Constants;
 
 public class LoginPropertiesFileTest extends CommonMethods {
 	
