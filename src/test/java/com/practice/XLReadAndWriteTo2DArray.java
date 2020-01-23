@@ -51,7 +51,8 @@ public class XLReadAndWriteTo2DArray {
 			System.out.println(" ");
 		}
 		
-		
+		wbook.close();
+		fis.close();
 	}
 }
 

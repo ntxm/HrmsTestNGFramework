@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="445" started-at="2020-01-22T02:58:45 EST" finished-at="2020-01-22T02:58:45 EST">
+  <suite name="Default suite" duration-ms="11259" started-at="2020-01-23T00:11:04 EST" finished-at="2020-01-23T00:11:16 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="445" started-at="2020-01-22T02:58:45 EST" finished-at="2020-01-22T02:58:45 EST">
-      <class name="com.practice.XLReadAndWriteTo2DArray">
-        <test-method status="PASS" signature="read()[pri:0, instance:com.practice.XLReadAndWriteTo2DArray@6e0e048a]" name="read" duration-ms="413" started-at="2020-01-22T02:58:45 EST" finished-at="2020-01-22T02:58:45 EST">
+    <test name="Default test" duration-ms="11259" started-at="2020-01-23T00:11:04 EST" finished-at="2020-01-23T00:11:16 EST">
+      <class name="com.practice.LoginPropertiesFileTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.practice.LoginPropertiesFileTest@4bbfb90a]" name="setUp" is-config="true" duration-ms="3191" started-at="2020-01-23T00:11:04 EST" finished-at="2020-01-23T00:11:08 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- read -->
-      </class> <!-- com.practice.XLReadAndWriteTo2DArray -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addEmployeeExcelReader()[pri:0, instance:com.practice.LoginPropertiesFileTest@4bbfb90a]" name="addEmployeeExcelReader" duration-ms="609" started-at="2020-01-23T00:11:08 EST" finished-at="2020-01-23T00:11:08 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeExcelReader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practice.LoginPropertiesFileTest@4bbfb90a]" name="tearDown" is-config="true" duration-ms="81" started-at="2020-01-23T00:11:08 EST" finished-at="2020-01-23T00:11:08 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.practice.LoginPropertiesFileTest@4bbfb90a]" name="setUp" is-config="true" duration-ms="2647" started-at="2020-01-23T00:11:08 EST" finished-at="2020-01-23T00:11:11 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.practice.LoginPropertiesFileTest@4bbfb90a]" name="login" duration-ms="4609" started-at="2020-01-23T00:11:11 EST" finished-at="2020-01-23T00:11:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practice.LoginPropertiesFileTest@4bbfb90a]" name="tearDown" is-config="true" duration-ms="86" started-at="2020-01-23T00:11:16 EST" finished-at="2020-01-23T00:11:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.practice.LoginPropertiesFileTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
