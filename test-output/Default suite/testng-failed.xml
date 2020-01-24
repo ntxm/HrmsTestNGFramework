@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hrms.testcases.AddEmployeeFromExcelPageTest">
+      <class name="com.practice.ExcelWriting">
         <methods>
-          <include name="createEmployeeFromExcel" invocation-numbers="6"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="write"/>
         </methods>
-      </class> <!-- com.hrms.testcases.AddEmployeeFromExcelPageTest -->
+      </class> <!-- com.practice.ExcelWriting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
