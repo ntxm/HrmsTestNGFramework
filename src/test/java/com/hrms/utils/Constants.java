@@ -22,6 +22,8 @@ public class Constants {
 	
 	public static final String EMPLOYEE_EXCEL_PATH = "/Users/natalia/eclipse-workspace/HRMS/src/test/resources/Book1.xlsx";
 	
+	public static final String EXCEL_DATA_FILEPATH = System.getProperty("user.dir") + "/src/test/resources/testdata/HrmsTestData.xlsx";
+	
 	
 }
 
