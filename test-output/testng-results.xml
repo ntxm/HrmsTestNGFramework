@@ -1,25 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15685" started-at="2020-01-23T03:59:12 EST" finished-at="2020-01-23T03:59:28 EST">
+  <suite name="Default suite" duration-ms="85588" started-at="2020-01-23T20:02:26 EST" finished-at="2020-01-23T20:03:51 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15685" started-at="2020-01-23T03:59:12 EST" finished-at="2020-01-23T03:59:28 EST">
-      <class name="com.hrms.testcases.EmployeeListToExcelPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.EmployeeListToExcelPageTest@4bbfb90a]" name="setUp" is-config="true" duration-ms="3249" started-at="2020-01-23T03:59:12 EST" finished-at="2020-01-23T03:59:15 EST">
+    <test name="Default test" duration-ms="85588" started-at="2020-01-23T20:02:26 EST" finished-at="2020-01-23T20:03:51 EST">
+      <class name="com.hrms.testcases.AddEmployeeFromExcelPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="setUp" is-config="true" duration-ms="3144" started-at="2020-01-23T20:02:26 EST" finished-at="2020-01-23T20:02:29 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="employeeListWriteToExcel()[pri:0, instance:com.hrms.testcases.EmployeeListToExcelPageTest@4bbfb90a]" name="employeeListWriteToExcel" duration-ms="12312" started-at="2020-01-23T03:59:15 EST" finished-at="2020-01-23T03:59:28 EST">
+        <test-method status="PASS" signature="createEmployeeFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="createEmployeeFromExcel" duration-ms="10627" started-at="2020-01-23T20:02:29 EST" data-provider="addEmployeeExcelReader" finished-at="2020-01-23T20:02:40 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1010.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Maria]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- employeeListWriteToExcel -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.EmployeeListToExcelPageTest@4bbfb90a]" name="tearDown" is-config="true" duration-ms="90" started-at="2020-01-23T03:59:28 EST" finished-at="2020-01-23T03:59:28 EST">
+        </test-method> <!-- createEmployeeFromExcel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="tearDown" is-config="true" duration-ms="90" started-at="2020-01-23T20:02:40 EST" finished-at="2020-01-23T20:02:40 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.hrms.testcases.EmployeeListToExcelPageTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="setUp" is-config="true" duration-ms="2618" started-at="2020-01-23T20:02:40 EST" finished-at="2020-01-23T20:02:43 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createEmployeeFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="createEmployeeFromExcel" duration-ms="10933" started-at="2020-01-23T20:02:43 EST" data-provider="addEmployeeExcelReader" finished-at="2020-01-23T20:02:54 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Elena]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1010.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Antuanetta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployeeFromExcel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="tearDown" is-config="true" duration-ms="90" started-at="2020-01-23T20:02:54 EST" finished-at="2020-01-23T20:02:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="setUp" is-config="true" duration-ms="2540" started-at="2020-01-23T20:02:54 EST" finished-at="2020-01-23T20:02:56 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createEmployeeFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="createEmployeeFromExcel" duration-ms="12514" started-at="2020-01-23T20:02:56 EST" data-provider="addEmployeeExcelReader" finished-at="2020-01-23T20:03:09 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rojer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1010.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Grabhan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployeeFromExcel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="tearDown" is-config="true" duration-ms="92" started-at="2020-01-23T20:03:09 EST" finished-at="2020-01-23T20:03:09 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="setUp" is-config="true" duration-ms="2548" started-at="2020-01-23T20:03:09 EST" finished-at="2020-01-23T20:03:11 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createEmployeeFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="createEmployeeFromExcel" duration-ms="12850" started-at="2020-01-23T20:03:11 EST" data-provider="addEmployeeExcelReader" finished-at="2020-01-23T20:03:24 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ellin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1010.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Twelt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployeeFromExcel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="tearDown" is-config="true" duration-ms="89" started-at="2020-01-23T20:03:24 EST" finished-at="2020-01-23T20:03:24 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="setUp" is-config="true" duration-ms="3141" started-at="2020-01-23T20:03:24 EST" finished-at="2020-01-23T20:03:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createEmployeeFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="createEmployeeFromExcel" duration-ms="10471" started-at="2020-01-23T20:03:27 EST" data-provider="addEmployeeExcelReader" finished-at="2020-01-23T20:03:38 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Santiago]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1010.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bordargo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployeeFromExcel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="tearDown" is-config="true" duration-ms="87" started-at="2020-01-23T20:03:38 EST" finished-at="2020-01-23T20:03:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="setUp" is-config="true" duration-ms="3300" started-at="2020-01-23T20:03:38 EST" finished-at="2020-01-23T20:03:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createEmployeeFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="createEmployeeFromExcel" duration-ms="9878" started-at="2020-01-23T20:03:41 EST" data-provider="addEmployeeExcelReader" finished-at="2020-01-23T20:03:51 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Eleonora]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1010.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Parencse]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployeeFromExcel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddEmployeeFromExcelPageTest@9660f4e]" name="tearDown" is-config="true" duration-ms="92" started-at="2020-01-23T20:03:51 EST" finished-at="2020-01-23T20:03:51 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrms.testcases.AddEmployeeFromExcelPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
