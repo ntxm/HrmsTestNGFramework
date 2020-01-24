@@ -15,6 +15,7 @@ import com.hrms.pages.LoginPageElements;
 import com.hrms.pages.ViewEmployeePageElements;
 import com.hrms.utils.CommonMethods;
 import com.hrms.utils.Constants;
+import com.hrms.utils.ExcelUtility;
 
 /**
  * 
@@ -28,7 +29,7 @@ import com.hrms.utils.Constants;
  */
 public class AddEmployeeFromExcelPageTest extends CommonMethods {
 	
-	@Test(dataProvider="addEmployeeExcelReader")
+	@Test(dataProvider="getData")
 	public void createEmployeeFromExcel(String fName, String mName, String lName) throws InterruptedException {
 		//create an Object of LoginPageElements
 		LoginPageElements login = new LoginPageElements();
@@ -94,6 +95,14 @@ public class AddEmployeeFromExcelPageTest extends CommonMethods {
 		return array;
 		
 	}
+	
+	
+	
+	@DataProvider
+	public Object[][] getData() {
+		return ExcelUtility.excelToArray(Constants.EXCEL_DATA_FILEPATH, "Sheet1");
+	}
+	
 	
 	
 

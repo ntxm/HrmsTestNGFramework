@@ -13,7 +13,7 @@ public class ExcelUtility {
 	private static Workbook wbook;
 	private static Sheet sheet;
 	
-	public void openExcel(String filePath, String sheetName) {
+	public static void openExcel(String filePath, String sheetName) {
 		try {
 			FileInputStream fis = new FileInputStream(filePath);
 			try {
@@ -28,23 +28,23 @@ public class ExcelUtility {
 		}
 	}
 	
-	public int rowCount() {
+	public static int rowCount() {
 		int rows = sheet.getPhysicalNumberOfRows();
 		return rows;
 	}
 	
-	public int columnCount() {
+	public static int columnCount() {
 		int columns = sheet.getRow(0).getPhysicalNumberOfCells();
 		return columns;
 	}
 	
-	public String getCellValue(int rowIndex, int colIndex) {
+	public static String getCellValue(int rowIndex, int colIndex) {
 		String value = sheet.getRow(rowIndex).getCell(colIndex).toString();
 		return value;
 	}
 	
 	
-	public Object[][] excelToArray(String filePath, String sheetName){
+	public static Object[][] excelToArray(String filePath, String sheetName){
 		
 		openExcel(filePath, sheetName);
 		
