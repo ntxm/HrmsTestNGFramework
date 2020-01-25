@@ -20,15 +20,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.hrms.testcases.AddEmployeePageTest -->
-      <class name="com.hrms.testcases.LeaveListPageTest">
-        <methods>
-          <include name="writeReport"/>
-          <include name="generateReports"/>
-          <include name="leaveLabelValidation1"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.hrms.testcases.LeaveListPageTest -->
     </classes>
   </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

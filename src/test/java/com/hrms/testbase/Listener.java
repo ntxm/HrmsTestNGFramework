@@ -28,7 +28,7 @@ public class Listener extends CommonMethods implements ITestListener {
 	
 	public void onTestFailure(ITestResult result) {
 	    System.out.println("Test failed: " + result.getName());
-	    test.pass("Test failed " + result.getName());
+	    test.fail("Test failed " + result.getName());
 	    String imagePath = CommonMethods.takeScreenshot("failed/" + result.getName());
 	    try {
 			test.addScreenCaptureFromPath(imagePath);
