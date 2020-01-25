@@ -9,6 +9,7 @@ public class Listener extends CommonMethods implements ITestListener {
 	
 	public void onTestStart(ITestResult result) {
 		System.out.println("Test started: " + result.getName());
+		report.createTest(result.getName());
 		
 	}
 	

@@ -24,6 +24,12 @@ public class Constants {
 	
 	public static final String EXCEL_DATA_FILEPATH = System.getProperty("user.dir") + "/src/test/resources/testdata/HrmsTestData.xlsx";
 	
+	public static final String REPORT_FILEPATH = System.getProperty("user.dir") + "/target/report/hrms.html";
+	
+	public static final String OS_NAME = System.getProperty("os.name");
+	
+	public static final String USER_NAME = System.getProperty("user.name");
+	
 	
 }
 
