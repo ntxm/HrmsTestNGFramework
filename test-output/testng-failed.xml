@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.hrms.testbase.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Regression Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.practice.ExcelWriting">
+      <class name="com.hrms.testcases.AddEmployeePageTest">
         <methods>
-          <include name="write"/>
+          <include name="writeReport"/>
+          <include name="AddNewEmployee"/>
+          <include name="generateReports"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.practice.ExcelWriting -->
+      </class> <!-- com.hrms.testcases.AddEmployeePageTest -->
+      <class name="com.hrms.testcases.LeaveListPageTest">
+        <methods>
+          <include name="writeReport"/>
+          <include name="generateReports"/>
+          <include name="leaveLabelValidation1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hrms.testcases.LeaveListPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

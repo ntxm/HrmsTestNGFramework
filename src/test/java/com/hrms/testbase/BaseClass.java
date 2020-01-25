@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
 import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.hrms.utils.ConfigsReader;
@@ -18,6 +19,7 @@ public class BaseClass {
     public static WebDriver driver;
     public static ExtentHtmlReporter html;
 	public static ExtentReports report;
+	public static ExtentTest test;
     
     
     @BeforeTest(alwaysRun = true)

@@ -186,14 +186,17 @@ public class CommonMethods extends BaseClass {
 		 * @param fileName
 		 */
 		
-		public static void takeScreenshot(String fileName) {
+		public static String takeScreenshot(String fileName) {
 			TakesScreenshot ts = (TakesScreenshot)driver;
 			File file = ts.getScreenshotAs(OutputType.FILE);
+			String screenshotFile = Constants.SCREENSHOTS_FILEPATH + fileName + ".png";
 			try {
-				FileUtils.copyFile(file, new File("screenshots/"+fileName+".png"));
+				FileUtils.copyFile(file, new File(screenshotFile));
 			} catch (IOException e) {
 				System.out.println("Cannot take a screenshot");
 			}
+			
+			return screenshotFile;
 		}
 		
 		
