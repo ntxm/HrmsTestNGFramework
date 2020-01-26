@@ -38,7 +38,7 @@ public class AddEmployeePageTest extends CommonMethods {
 
 	click(addEmployee.saveBtn);
 	
-	test.info("Validate created employee caompare empID");
+	test.info("Validate created employee compare empID");
 	Assert.assertEquals(viewEmployee.ActualEmployeeID.getText(), addEmployee.personalEmpID.getText()+"11","Employee IDs is not match");
 	Thread.sleep(4000);
 	

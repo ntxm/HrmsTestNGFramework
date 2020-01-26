@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
@@ -187,9 +189,13 @@ public class CommonMethods extends BaseClass {
 		 */
 		
 		public static String takeScreenshot(String fileName) {
+			Date date = new Date();
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy_MM_dd_HHmmss");
+			String timeStamp = sdf.format(date.getTime());
+			
 			TakesScreenshot ts = (TakesScreenshot)driver;
 			File file = ts.getScreenshotAs(OutputType.FILE);
-			String screenshotFile = Constants.SCREENSHOTS_FILEPATH + fileName + ".png";
+			String screenshotFile = Constants.SCREENSHOTS_FILEPATH + fileName+timeStamp + ".png";
 			try {
 				FileUtils.copyFile(file, new File(screenshotFile));
 			} catch (IOException e) {
